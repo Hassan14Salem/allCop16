@@ -1,0 +1,57 @@
+
+<div   class="col-md-12">
+  <div>
+    <div  class="col-md-12">
+      <owl-carousel-o  [options]="customOptions" >
+        <ng-template  *ngFor="let item of slides" carouselSlide>
+          
+          <div  class="header-container"  [ngStyle]="{'background-image': 'url(' + item.img + ')'}">
+            <div  data-aos="zoom-in"  data-aos-duration="1800"  *ngFor="let text of AllText" class="Register-Text container">
+              <h1 >
+                {{text.text1}}
+              </h1>
+              <p class="my-p">
+                {{text.text2}}
+              </p>
+              <p class="my-p">
+                <a href="https://www.visitsaudi.com/en/understand" target="_blank" class="my-link"> {{text.link}}</a>
+              </p>
+              <p class="my-p">
+                <span>
+                 {{text.date}}
+                </span>
+
+              </p>
+              <div class="container">
+                <p >
+                  <button routerLink="/green-zone" style="width: 200px; height: 50px; border-radius: 30px; font-size: 20px; color: #A59073;" type="button" class="btn btn-light">
+                    Register
+                    <svg style="width: 24px; height: 21px; vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                      <path fill="#A59073 " d="M46.5 28.9L20.6 3c-.6-.6-1.6-.6-2.2 0l-4.8 4.8c-.6.6-.6 1.6 0 2.2l19.8 20-19.9 19.9c-.6.6-.6 1.6 0 2.2l4.8 4.8c.6.6 1.6.6 2.2 0l21-21 4.8-4.8c.8-.6.8-1.6.2-2.2z"></path>
+                    </svg>
+                  </button>
+
+
+
+                </p>
+              </div>
+
+
+          </div>
+        <div class="header-footer">
+
+              <div class="index-card d-flex flex-column ">
+                  <p style="color: #fff; font-size: 20px; ">
+                    95% of world’s food is produced from land....
+                  </p>
+              </div>
+
+          </div>
+          </div>
+        </ng-template>
+      </owl-carousel-o>
+    </div>
+  </div>
+
+</div>
+

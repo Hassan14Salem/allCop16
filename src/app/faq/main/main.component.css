@@ -1,0 +1,180 @@
+.fqa {
+  background: #e6e0d3 !important;
+  overflow: scroll;
+  width: 120%;
+}
+.scrollarea {
+  min-height: 1px;
+  min-width: 1px;
+  border-radius: 50px;
+}
+::-webkit-scrollbar {
+  background-color: #0000001a;
+  width: 8px;
+  height: 1px;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0000001a;
+  width: 1px;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-corner {
+  background: #0000001a;
+  width: 1px;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-button:single-button {
+  background-color: #0000001a;
+  width: 1px;
+}
+
+main {
+  margin: 30px auto;
+  width: 980px;
+  height: 596px;
+  margin-top: 155px;
+}
+main .search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 49px;
+}
+main .search .search-header {
+  flex-basis: 80%;
+  color: #30574E;
+  font: bold 24px / 1.2em quicksand;
+  margin: 0px !important;
+  padding: 0px !important;
+  text-align: center;
+}
+main .search .search-icon {
+  display: block;
+  width: 24px;
+  cursor: pointer;
+  color: rgb(48, 87, 78);
+}
+main .search .search-input {
+  position: absolute;
+  top: 0px;
+  right: -100%;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+main .search .search-input input {
+  padding: 10px 12px 10px 30px;
+  border: 2px solid rgb(17, 90, 248);
+  width: 100%;
+  outline: none;
+  background: #e6e0d3;
+  height: 100%;
+}
+
+main .search .search-input .search-input-icon {
+  color: rgb(48, 87, 78);
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+main .search .search-input-position {
+  right: 0px;
+}
+
+main .search .close-input-icon {
+  color: rgb(48, 87, 78);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+main .nav .nav-link {
+  padding-right: 30px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: quicksand;
+  color: rgb(128, 128, 128) !important;
+  line-height: 40px !important;
+}
+
+main .nav .nav-link.active {
+  color: rgb(48, 87, 78) !important;
+  background: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-item {
+  border: none;
+  background: transparent;
+}
+.accordion-item {
+  padding: 0px;
+}
+.accordion-header {
+  background: #dbdbdbe0;
+  border: none;
+  outline: none;
+  margin-top: 16px;
+}
+.accordion-header .accordion-button {
+  border: none;
+  outline: none;
+  padding: 0px;
+}
+
+.quastion-content {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: none !important;
+  cursor: pointer;
+}
+
+.quastion-content .eteration {
+  background: #c2c2c2e0;
+  width: 130px;
+  text-align: center;
+  color: rgb(48, 87, 78);
+  font-size: 32px;
+  font-weight: 600;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+.quastion-content:hover .eteration {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.quastion-content .quastion {
+  font-size: 18px;
+  margin: auto 18px;
+  text-transform: capitalize;
+  color: rgb(141, 141, 141);
+}
+
+
+
+.accordion-body .answer {
+  font-size: 22px;
+  font-weight: 300;
+  margin-left: 24px;
+  color: rgb(128, 128, 128) !important;
+}

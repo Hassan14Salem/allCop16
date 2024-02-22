@@ -1,0 +1,57 @@
+html {
+  font-family: normal normal normal 40px/1.4em 'Open Sans Condensed', sans-serif !important;
+
+}
+body{
+ font-family: normal normal normal 40px/1.4em 'Open Sans Condensed', sans-serif !important;
+}
+h1 h2 p span h3 h4 h5 h6 {
+  font-family: normal normal normal 40px/1.4em 'Open Sans Condensed', sans-serif !important;
+
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap');
+}
+
+/* Then use it in your CSS */
+.font-example {
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+margin: 0 !important;
+padding:0 !important;
+
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+  display: none !important;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 10px;
+  display: none !important;
+}
+.owl-carousel .owl-stage-outer {
+  overflow: hidden;
+  border: none;
+}
+.owl-carousel .owl-stage {
+  transform: transform(0px, 0px, 0px) !important;
+}
+select:focus-visible{
+  border: none !important;
+}
+li:focus-visible{
+  border: none !important;
+}

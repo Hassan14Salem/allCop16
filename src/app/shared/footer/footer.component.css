@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Oswald';
+}
+
+@font-face {
+  font-family: 'sans';
+}
+
+
+.footerBg
+{
+  background-color: #074D63;
+}
+.logo1
+{
+  width: 210px;
+  height: 82px;
+  padding: 10px !important;
+}
+
+.logo2
+{
+  width: 247px;
+  height: 90px;
+}
+.card
+{
+  width: 210px !important;
+}
+.containerCard
+{
+  width: 80%;
+}
+.heading
+{
+  font-size: 20px;
+  color:#FFF6E1;
+  font-weight: bold;
+  line-height: 1.41em;
+ font-family:  normal normal bold 16px/1.4em quicksand,sans-serif;
+ margin-left: 44px}
+
+li
+{
+  color: #FFF6E1;
+  line-height: 1.875em;
+  font-size: 14px;
+  font-family: normal normal normal 14px/1.4em quicksand,sans-serif;
+  list-style: none;
+
+  padding: 10px !important;
+}
+.copyRight
+{
+  color: #FFF6E1;
+  line-height: 1.875em;
+  font-size: 16px;
+  font-family: normal normal normal 14px/1.4em quicksand,sans-serif;
+  list-style: none;
+  padding: 0px 54px !important;
+
+
+}
+.card4
+{
+  display: flex;
+  flex-wrap: wrap !important;
+}
+.social
+{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-evenly !important;
+}
+.social img
+{
+  width: 30px !important;
+  height: 30px !important;
+
+}
+
+span{
+  border-bottom: 1px solid white;
+}
+@media screen and (max-width:500px) {
+  .logo1 img {
+    margin-left: 15px !important;
+    padding: 10px;
+  }
+  .social{
+    margin-top: 30px;
+  }
+
+}

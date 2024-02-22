@@ -1,0 +1,93 @@
+section {
+  background-image: url('../../../assets/imgs/c4b02c_6802d1d68c0445d4a472b09e3fbeb9b5~mv2.webp') !important;
+  height: auto;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Register-Text {
+  background-color: #00000073;
+  height: auto;
+  width: 1000px;
+  --shd: 0 1px 4px rgba(0,0,0,.6);
+  box-shadow: var(--shd);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  direction: ltr;
+  float: right;
+  margin-right: -109px;
+  margin-top: -47.5px;
+}
+
+.my{
+  padding: 19px 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .Register-Text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .my {
+    padding: 10px;
+  }
+  .my-p{
+    color: #FFFFFF;
+    text-align: center !important;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 0px 25px;
+    width: 100%;
+  }
+
+}
+
+h1 {
+  font-size: 34px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: start;
+  padding: 10px 27px;
+  width: 100%;
+}
+
+.my-p {
+  color: #FFFFFF;
+  text-align: justify;
+  font-size: 17px;
+  padding: 0px 25px;
+width: 100%;
+
+}
+.my-btn{
+  width: 200px;
+   height: 40px;
+   border-radius: 2px;
+    transition: all 0.2s ease, visibility 0s;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px 2px 0px 0px;
+    float: inline-start;
+    color: #000000;
+    margin-left: 23px;
+
+}
+.my-btn:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.my-btn:hover svg path {
+  fill: #ffffff;
+}

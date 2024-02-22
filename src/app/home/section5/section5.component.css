@@ -1,0 +1,81 @@
+
+.bgOfSection
+{
+    background-color: #074D63;
+    margin-top: -48px;
+}
+
+.images
+{
+    height: 100% !important;
+}
+
+.headingOfSection
+{
+    font-size: 48px ;
+    font-family:"sans" ,sans-serif;
+     color: #FFF6E1;;
+     line-height: normal;
+     /* -font_2: normal normal normal 16px/1.4em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif */
+     font-weight: 800;
+}
+.headingOfText
+{
+    font-size: 32px ;
+    color: white;
+    font-weight: 700;
+}
+.pOfSection
+{
+
+    font-size: 15px !important;
+    font-family:sans,sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0em;
+    font-weight: lighter;
+    text-align: justify;
+    }
+.goAnchor
+{
+
+    text-decoration: underline;
+    color: rgb(163, 217, 246);
+    font-family: 'Oswald',oswald-medium,oswald,sans-serif;
+    font-size: 34px;
+
+
+}
+.sectionWidth
+{
+    width: 100%;
+    height: 100%;
+}
+.imagePos
+{
+  display: flex;
+        flex-direction: row-reverse !important;
+        /* flex-direction: column-reverse !important; */
+
+}
+
+.alignCardInfo
+{
+    display: flex;
+    flex-wrap: wrap !important;
+    align-items: stretch;
+
+}
+.imageWidth
+{
+    width: 434px;
+    height: 409px
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 991px) {
+    .resOfSection7  {
+        width: 100%  !important;
+        height: auto !important;
+    }
+ 
+}

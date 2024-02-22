@@ -1,0 +1,11 @@
+#partners {
+    color: #444444;
+    /* background-color: #090024; */
+    background-image: url(https://dev.tecsolutiongroup.com:43377/pattern1.47a084777580d67c.jpg);
+    overflow: hidden;
+    background-size: contain;
+}
+
+#news {
+    background: url(https://dev.tecsolutiongroup.com:43377/News_GB.f7465db2fae196b9.png) !important;
+}

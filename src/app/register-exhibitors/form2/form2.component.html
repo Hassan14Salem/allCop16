@@ -1,0 +1,134 @@
+<section class="d-flex justify-content-center align-items-center">
+
+  <div class="container ">
+    <div class="w-100  d-flex justify-content-center align-items-center">
+      <div class="p-2 heading   w-50">
+        <div class="  d-flex justify-content-between align-items-center ">
+          <h2>Step 2: Requested Pavilion Information</h2>
+          <span (click)="closeDialog()" class="icon">
+
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+
+        </div>
+
+        <div class="pt-2 ">
+          <h6>2 Of 3 </h6>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-center ">
+      <div class="w-50">
+        <div class="w-100  brdrBtm">
+
+          <hr>
+          <br>
+          <div class="row ">
+            <div class="col-md-6 ">
+              <div class="p-2 ">
+                <label for="requested">Requested Area for your pavilion/m² *</label>
+                <select id="requested" class="form-select inputSelect " aria-label="Default select example">
+                  <option selected>Please Select</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+            </div>
+
+            <div class="col-md-6 ">
+              <div class="p-2 ">
+                <label for="planning">Are you planning to have visitors space? *</label>
+                <select id="planning" class="form-select inputSelect " aria-label="Default select example">
+                  <option selected>Please Select</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+          <div class="row ">
+            <div class="col-md-12 ">
+              <div class="p-2 ">
+                <label for="Brief">Brief about the pavilion</label>
+                <div class="form-floating">
+                  <textarea class="form-control txtArea" placeholder="Leave a comment here" id="Brief"
+                    style="height: 100px"></textarea>
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+
+
+          <div class="row">
+
+            <div class="col-md-6 ">
+              <div class="p-2">
+                <label for="standingNum">Number of standing at your pavilion *</label>
+                <input type="text" placeholder="e.g., 23" accept="png" name="fileInput" class="form-control inputDesign"
+                  id="standingNum">
+              </div>
+
+
+
+
+            </div>
+
+
+            <div class="col-md-6 ">
+              <div class="p-2">
+                <label for="Entity">Entity's CEO Name *</label>
+                <input type="text" placeholder="e.g., 23" accept="png" name="fileInput" class="form-control inputDesign"
+                  id="Entity">
+              </div>
+
+
+
+
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-6 ">
+              <div class="p-2 ">
+                <label for="Level">Level of representation *</label>
+                <select id="Level" class="form-select inputSelect " aria-label="Default select example">
+                  <option selected>Please Select</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class=" d-flex justify-content-between  align-items-center btnContainerBrdr">
+          <button (click)="allBack()" class="btnBackDesign">Back</button>
+
+          <button (click)="lastNext()" class="btnDesign">Next</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

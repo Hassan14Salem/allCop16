@@ -1,0 +1,71 @@
+section {
+  overflow-x: hidden;
+  background: #30574e;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.Register-Text {
+  background-color: #00000073;
+  height:199px;
+  width: 218px;
+  border-radius: 10px;
+  --shd: 0 1px 4px rgba(0,0,0,.6);
+  box-shadow: var(--shd);
+  padding: 10px 0px;
+  text-align: center;
+}
+.my-p{
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 24PX;
+  text-align: center;
+ padding: 17px 0px;
+
+}
+.my-link {
+  color: #FFFFFF;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 300;
+  letter-spacing: 0em;
+  line-height: 1.5;
+}
+
+
+.myimg{
+  box-shadow: 0 0 0 #000;
+    position: static;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    height: 48px;
+    object-fit: cover;
+
+}
+@media screen and (max-width: 500px) {
+  .col-md-2 {
+  padding: 10px 10px;
+  }
+
+  .my {
+    padding: 10px;
+  }
+  .my-p{
+    color: #FFFFFF;
+    text-align: center !important;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 0px 25px;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,13 @@
+<section  class="section">
+  <div class="container-fluid">
+    <div class="row justify-content-between">
+      <div  *ngFor="let item of AllText" class="col-md-2">
+        <div  data-aos="zoom-in-right"  data-aos-duration="1800" class="Register-Text container">
+          <img class="myimg" [src]="item.imgNumber" alt="">
+          <p class="my-p">{{item.text1}}</p>
+        <span class="my-link">{{item.link}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

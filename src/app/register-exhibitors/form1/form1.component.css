@@ -1,0 +1,109 @@
+.inputSelect
+{
+    color: #8894ab !important;
+    font-weight: 300 !important;
+    padding: 0 1.875em 0 0.625em !important;
+    /* background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg width='10' height='6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2357647E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E); */
+    background-position: right 10px bottom 50% !important;
+    background-size: 0.625em !important;
+    background-repeat: no-repeat !important;
+    height: 2.5em;
+    background-color: #fff !important;
+    border-color: #b8bdc9 !important;
+    color: #2c3345 !important;
+}
+.inputDesign
+{
+    font-size: 1em !important;
+    border-radius: 4px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    display: block !important;
+    min-width: 100% !important;
+    font-family: inherit !important;
+    height: 2.5em !important;
+    color: #2c3345;
+    background-color: #fff !important;
+    border-color: #b8bdc9 !important;
+    color: #2c3345 ;
+
+}
+.inputDesign[placeholder]
+{
+    padding: 0 0.625em !important;
+
+}
+.inputDesign::placeholder
+{
+    color: #8894ab !important;
+
+}
+
+label
+{
+    font-family: Inter,sans-serif !important;
+        width: 100% !important;
+        margin-left: 2px !important;
+        margin-bottom: 14px !important;
+            display: inline-block !important;
+            font-weight: 500 !important;
+            word-break: break-word !important;
+}
+h6
+{
+    color: #57647e;
+}
+.btnDesign
+{
+    background-color: #2e69ff !important;
+    border-color: #2e69ff !important;
+    color: #fff !important;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 3em !important;
+    width: auto;
+    min-width: 128px !important;
+    color: #2c3345;
+    font-size: 1em;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+
+.icon
+{
+    display: flex;
+    width: 30px;
+    height: 30px;
+
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.uploadInputDesign
+{
+    height: 132px;
+    border: 2px dotted black;
+}
+.brdrBtm
+{
+    border-top: 1px solid #e5e7f2 ;
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid #e5e7f2;
+}
+.btnContainerBrdr
+{
+
+    padding-bottom: 30px !important;
+    padding-top:    30px !important;
+
+
+}

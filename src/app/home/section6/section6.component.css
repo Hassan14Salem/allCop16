@@ -1,0 +1,92 @@
+.bgOfSection
+{
+    background-color: #033444;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../../../assets/fonts/New folder/Oswald-VariableFont_wght.ttf') format('woff2'),
+
+  }
+
+  @font-face {
+    font-family: 'sans';
+    src: url('../../../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+  }
+.heading
+{
+    color: #FFF6E1;
+    font-size: 48px;
+    font-family: normal normal normal 16px/1.4em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+}
+
+.headingOfText
+{
+    font-size: 32px;
+    font-family: open sans,sans-serif;
+    color:  rgb(255,255,255);
+    font-weight: 700 !important;
+}
+.pOfText
+{
+    font-size: 20px;
+    text-align: justify !important;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0em !important;
+    font-family:'sans' normal normal normal 34px/1.4em 'open sans condensed',sans-serif;
+ 
+}
+.pOfSection
+{
+    font-size: 20px;
+    text-align: justify !important;
+    font-family: normal normal normal 34px/1.4em 'sans',sans-serif;
+
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+
+
+.readMore
+{
+    text-decoration: underline;
+    color: rgb(163, 217, 246);
+    font-family: 'Oswald',oswald-medium,oswald,sans-serif;
+    font-size: 34px;
+
+}
+.imageContainer
+{
+    width: 453px;
+    height: 331px;
+}
+@media screen and (max-width:500px) {
+
+.pOfSection
+{
+    font-size: 15px !important;
+    font-family: sans,sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0em;
+    font-weight: lighter;
+    text-align: justify
+
+}
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+
+    .resOfSection7  {
+
+        width: 100%  !important;
+        height: auto !important;
+    }
+  
+ .test
+ {
+    justify-content: left !important;
+
+ }
+ 
+}

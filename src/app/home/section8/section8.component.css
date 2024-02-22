@@ -1,0 +1,125 @@
+.bgImage
+{
+    background-image: url('../../../assets/images/plan section/backgroundOfsection.webp');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-color: #30574E
+
+
+}
+.layer
+{
+
+    background-color: rgba(48, 87, 78,0.9);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.heading
+{
+    font-size: 48px;
+    color: rgb(255, 246, 225);
+    font-family:"sans" ,sans-serif;
+    font-weight: 800;
+
+}
+.containerOfCard
+{
+  display: flex ;
+  flex-wrap: wrap !important;
+}
+.card
+{
+    width:  291px;
+    height: 274px;
+    border-radius:  10px 10px 22px 22px;
+
+}
+.card img
+{
+    width: 272px;
+    height: 153px;
+    border-radius: 5px;
+
+}
+.btnOfCard
+{
+    width:291px;
+    height: 45px;
+    background-color: #3F7652;
+    border-radius: 50px;
+    color: white;
+
+}
+.test
+{
+    background: #3F7652;
+
+    border: 0px solid rgb(63, 118, 82);
+}
+.test span{
+  color: #FFFFFF;
+}
+.headinfOfText
+{
+    color: rgb(3, 52, 68);
+    font-weight: 700;
+    font-family:'sans', madefor-text-mediumbold, helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+}
+i{
+  color: white;
+}
+@media screen and  (min-width: 501px) and (max-width: 990px) {
+  .card-last{
+    width: 50%;
+    display: flex !important;
+    justify-content:space-evenly !important;
+  }
+
+}
+@media screen and  (min-width: 501px) and (max-width: 770px) {
+  .card-last{
+    width: 75%;
+    display: flex !important;
+    justify-content:center !important;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+
+  .card-last{
+    justify-content:center !important;
+  }
+  .containerOfHeading
+  {
+    display: flex;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+
+  }
+  .heading{
+    
+    font-size: 35px;
+    color: rgb(255, 246, 225);
+    font-family: "sans" ,sans-serif;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+}
+
+@media screen and  (min-width: 771px) and (max-width: 900px) {
+  .card-last{
+    width: 75%;
+    display: flex !important;
+    justify-content:center !important;
+  }
+}

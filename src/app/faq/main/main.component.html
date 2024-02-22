@@ -1,0 +1,92 @@
+  <div class="fqa">
+    <main >
+      <div class="search">
+        <h3 class="search-header">Frequently asked questions</h3>
+        <i class="fa-solid fa-magnifying-glass search-icon" (click)="toggleSearchInput()"></i>
+        <div class="search-input" [ngClass]="{'search-input-position': isSearchInputVisible}">
+          <input *ngIf="isSearchInputVisible" type="search" placeholder="Looking For Something" [(ngModel)]="searchValue" (input)="allSearch()">
+          <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
+          <i class="fa-solid fa-x close-input-icon" (click)="toggleSearchInput()"></i>
+        </div>
+      </div>
+      <ul  class="  nav nav-pills mb-3"  role="tablist">
+          <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                  type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                  Individuals
+              </button>
+          </li>
+          <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                  type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  Organizers
+              </button>
+          </li>
+          <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                  type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                  Exhibitors
+              </button>
+          </li>
+          <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-Sponsors-tab" data-bs-toggle="pill" data-bs-target="#pills-Sponsors"
+                  type="button" role="tab" aria-controls="pills-Sponsors" aria-selected="false">
+                  Sponsors
+              </button>
+          </li>
+      </ul>
+      <div style="height: 300px; overflow-y: scroll; overflow-x: hidden;" class="tab-content" tabindex="1" id="pills-tabContent">
+
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+          <div tabindex="1" class="accordion" id="accordionExample">
+            <div class="accordion-item" *ngFor="let item of filteredData">
+              <h2 class="accordion-header">
+                <div class="accordion-button quastion-content" type="button" data-bs-toggle="collapse"
+                  [attr.data-bs-target]="'#collapse' + item.question.split(' ')[1]" aria-expanded="true"
+                  [attr.aria-controls]="'collapse' + item.question.split(' ')[1]">
+                  <div class="eteration"><span>{{ item.question.split(' ')[1] }}</span></div>
+                  <p class="quastion">{{ item.question }}</p>
+                </div>
+              </h2>
+              <div [id]="'collapse' + item.question.split(' ')[1]" class="accordion-collapse collapse show"
+                [attr.data-bs-parent]="'#accordionExample'">
+                <div class="accordion-body">
+                  <p class="answer">{{ item.answer }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="tab-pane fade show " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+              tabindex="0">
+              <div tabindex="1" class="accordion" id="accordionExample">
+                <div class="accordion-item" *ngFor="let item of filteredData2">
+                  <h2 class="accordion-header">
+                    <div class="accordion-button quastion-content" type="button" data-bs-toggle="collapse"
+                      [attr.data-bs-target]="'#collapse' + item.question.split(' ')[1]" aria-expanded="true"
+                      [attr.aria-controls]="'collapse' + item.question.split(' ')[1]">
+                      <div class="eteration"><span>{{ item.question.split(' ')[1] }}</span></div>
+                      <p class="quastion">{{ item.question }}</p>
+                    </div>
+                  </h2>
+                  <div [id]="'collapse' + item.question.split(' ')[1]" class="accordion-collapse collapse show"
+                    [attr.data-bs-parent]="'#accordionExample'">
+                    <div class="accordion-body">
+                      <p class="answer">{{ item.answer }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+              tabindex="0">
+              Exhibitors
+          </div>
+          <div class="tab-pane fade" id="pills-Sponsors" role="tabpanel" aria-labelledby="pills-Sponsors-tab"
+              tabindex="0">
+              Sponsors
+          </div>
+      </div>
+  </main>
+  </div>
+

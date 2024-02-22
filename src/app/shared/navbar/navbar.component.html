@@ -1,0 +1,97 @@
+<header id="nav2" class="fixed-top w-100">
+  <div class="d-flex align-items-center justify-content-between m-0 w-100">
+      <div class="logo">
+          <img routerLink="/home" [src]="imgSrc" class="cursor-pointer" alt="logo">
+      </div>
+      <div id="nav-lg">
+          <div class="tabs">
+              <ul class="d-flex justify-content-between align-items-center">
+                  <li>
+                      <!-- sec1 -->
+                      <a class="cursor-pointer " routerLinkActive="active"  (click)="scrollToSection($event, 'Sec3')">About</a>
+                  </li>
+                  <li>
+                      <!-- sec2 -->
+                      <a class="cursor-pointer" routerLinkActive="active" (click)="scrollToSection($event, 'Sec5')">Saudi Efforts </a>
+                  </li>
+                  <li>
+                      <!-- sec3 -->
+                      <a class="cursor-pointer" routerLinkActive="active" (click)="scrollToSection($event, 'Sec7')">Road To Riyadh</a>
+                  </li>
+                  <li>
+                      <!-- sec4 -->
+                      <a class="cursor-pointer" routerLinkActive="active" (click)="scrollToSection($event, 'Sec8')">Plan Your Trip</a>
+                  </li>
+                  <li>
+                     <!-- sec5 -->
+                      <a class="cursor-pointer " routerLinkActive="active" routerLink="/general-8">Blue Zone </a>
+                  </li>
+                  <li>
+                     <!-- sec6 -->
+                      <a  class="cursor-pointer " routerLinkActive="active" routerLink="/green-zone" >Green Zone</a>
+                  </li>
+
+                  <li>
+                     <!-- sec7 -->
+                      <a  class="cursor-pointer " routerLinkActive="active" routerLink="/exhibitors"> Exhibitors</a>
+                  </li>
+                  <li>
+                     <!-- sec8 -->
+                    <a class="cursor-pointer " routerLinkActive="active"  routerLink="/FAQ">FAQ</a>
+                </li>
+
+                    <li>
+                      <select name="" id="">
+                         <option value="en" selected>En</option>
+                       <option value="">
+                         Ar
+                       </option>
+                      </select>
+
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div id="nav-sm">
+          <i class="fa fa-bars text-white mx-2 cursor-pointer py-4 pe-4" (click)="displaySmallNavList()"></i>
+          <div class="nav-mobile d-none">
+              <i class="fa fa-x py-3 text-white cursor-pointer" (click)="hideSmallNavList()"></i>
+              <ul>
+                  <li>
+                      <a class="active-mobile cursor-pointer"
+                          (click)="scrollToSectionSmall($event, 'head')">الرئيسية</a>
+                  </li>
+                  <li>
+                      <a class="cursor-pointer" (click)="scrollToSectionSmall($event, 'information')">عن المنصة</a>
+                  </li>
+                  <li>
+
+                      <a class="cursor-pointer" (click)="scrollToSectionSmall($event, 'news')">الأخبار</a>
+                  </li>
+                  <li>
+                      <a class="cursor-pointer" (click)="scrollToSectionSmall($event, 'partners')">الشركاء</a>
+                  </li>
+                  <li>
+                      <a routerLink="/licenses">الدليل الإرشادي</a>
+                  </li>
+                  <li>
+                      <a routerLink="/electronic-services">الخدمات</a>
+                  </li>
+                  <li>
+                      <a routerLink="/FAQ">الاسئلة الشائعة</a>
+                  </li>
+                  <li>
+                     <select name="" id="">
+                      <option value="">
+                        <a class="cursor-pointer">English</a>
+                      </option>
+                      <option value="">
+                        <a class="cursor-pointer">English</a>
+                      </option>
+                     </select>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</header>
